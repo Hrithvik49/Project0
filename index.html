@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>My Webpage!</title>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
         <style>
-          h1{
-            color: blue;
-            text-align: center;
+          @media (min-width:800px) {
+              body{
+                background-color: lightgreen;
+              }
+              h1::before{
+                content: "Hello Everyone, Welcome to my Webpage!";
+              }
+          }
+          @media (max-width:799px) {
+              body{
+                background-color: lightblue;
+              }
+              h1::before{
+                content: "Hello, Everyone!";
+              }
           }
         </style>
     </head>
     <body>
-        <h1> Hello everyone, welcome to my Webpage! </h1>
+        <h1> </h1>
+
     </body>
 </html>
