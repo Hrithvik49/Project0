@@ -1,9 +1,10 @@
+$color: red;
 div{
   font-size: 20px;
   p{
-    color: lightblue
+    color: $color;
   }
   ul{
-    color: lightgreen;
+    color: $color;
   }
 }
