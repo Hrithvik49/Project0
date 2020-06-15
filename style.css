@@ -2,3 +2,15 @@ h1{
   color : darkblue;
   text-align: center;
 }
+ul{
+  color: Black;
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+}
+ol{
+  color: Black;
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+}
