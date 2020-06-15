@@ -2,15 +2,47 @@ h1{
   color : darkblue;
   text-align: center;
 }
-ul{
+ul, ol{
   color: Black;
   font-weight: bold;
   font-style: italic;
   font-family: sans-serif;
 }
-ol{
+ol ul{
   color: Black;
-  font-weight: bold;
+  font-weight: bolder;
   font-style: italic;
   font-family: sans-serif;
+}
+p{
+  text-decoration: none;
+  font-family: cursive;
+}
+div{
+  font-size: 20px;
+  p{
+    color: orange;
+  }
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > div{
+    background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: auto;
+}
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th,td{
+  border: 1px solid black;
+  padding: 5px;
+}
+th{
+  background-color: lightgrey;
 }
